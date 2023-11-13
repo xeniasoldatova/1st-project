@@ -1,0 +1,70 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #213053;
+    margin: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+button {
+    font-family: 'Raleway', sans-serif;
+    font-style: 15px;
+    color: white;
+    background-color: #23a030;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0 16px 36px rgb(52 213 68 / 22%);
+    padding: 15px;
+}
+.header_logo {
+    height: 30px;
+}
+a {
+    text-decoration: none;
+    color: #213053;
+}
+header a {
+    font-style: 15px;
+    font-weight: 600;
+}
+#header_contacts {
+    margin-right: 25px;
+}
+.solar_pannel {
+    width: 500px;
+}
+.sun {
+    width: 100px;
+    height: 100px;
+}
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 115px 25px;
+    background: url('img/back.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.name_about {
+    font-size: 70px;
+    line-height: 76px;
+}
+.text_about {
+    font-size: 18px;
+    line-height: 30px;
+    opacity: 0.8;
+}
+.button_about {
+    font-size: 18px;
+    border-radius: 20px;
+    padding: 20px 25px;
+    margin-top: 20px;
+}
+.about_left {
+    max-width: 550px;
+}
